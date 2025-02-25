@@ -19,8 +19,10 @@ Then it will print the pdf metadata to json file titled "metadata.json"
 def main_program():
     count = 0
     while True:
+        # Uses Default input file "a.json"
         pdf_path = get_pdf_path("./a.json", count)
         count += 1
+
         if pdf_path:
             scrape_pdf(pdf_path)
 
