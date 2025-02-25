@@ -1,0 +1,4 @@
+{
+    "cmd": "request",
+    "pdf_path": "./pdf_folder/pdf.pdf"
+}
